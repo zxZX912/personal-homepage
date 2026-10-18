@@ -1,0 +1,23 @@
+# Local previews, test output and old page versions
+/.preview/
+
+# Original portrait files; the selected portrait is embedded in index.html
+/头像1.jpg
+/头像2.jpg
+
+# Original video exceeds GitHub's regular repository file limit.
+# Keep this source locally; upload a compressed copy as gallery-demo.mp4.
+/毕设视频.mp4
+
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+/.vscode/
+
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
